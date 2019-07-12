@@ -1,6 +1,6 @@
 # XposedInlineHook
 
-Xposed + InlineHook, so you can hook native method with xposed, sometimes it's usefull, can be used in VirtualPosed.
+Xposed + InlineHook, so you can hook C/C++ code with xposed, sometimes it's usefull, can be used in VirtualPosed.
 
 USED:
 
