@@ -74,7 +74,7 @@ void hookRecvfrom(){
     if (registerInlineHook((uint32_t) recvfrom, (uint32_t) new_recvfrom, (uint32_t **) &old_recvfrom) != ELE7EN_OK) {
         LOGD("registerInlineHook failed.");
     }
-    if (inlineHook((uint32_t) rand) != ELE7EN_OK) {
+    if (inlineHook((uint32_t) recvfrom) != ELE7EN_OK) {
         LOGD("inlineHook failed.");
     }
 
