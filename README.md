@@ -2,6 +2,6 @@
 
 Xposed + InlineHook, so you can hook C/C++ code with xposed, sometimes it's usefull, can be used in VirtualPosed.
 
-USED:
+Dependency:
 
 Android-Inline-Hook: <https://github.com/ele7enxxh/Android-Inline-Hook>
