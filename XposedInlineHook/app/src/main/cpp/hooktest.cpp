@@ -78,5 +78,5 @@ void hookRecvfrom(){
         LOGD("inlineHook failed.");
     }
 
-    LOGD("hook succeed failed.");
+    LOGD("hook succeed.");
 }
